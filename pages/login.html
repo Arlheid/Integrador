@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <header> <!-- Header Start -->
+        <nav>
+            <picture>
+                <a href="./index.html">
+                    <img src="./img/branding/logo_light_horizontal.svg" alt="Isologotipo de la marca Funkoshop">
+                </a>
+            </picture>
+            <ul>
+                <li>
+                    <a href="shop.html">SHOP</a>
+                </li>
+                <li>
+                    <a href="contact.html">CONTACTO</a>
+                </li>
+                <li>
+                    <a href="login.html">LOGIN</a>
+                </li>
+                <li>
+                    <a href="carrito.html">
+                        <img src="./img/icons/cart-icon.svg" alt="Icono de Carrito">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header> 
+    <main>
+        <form action="action_page.php" method="post">
+            <div class="container">
+              <label for="uname"><b>Usuario</b></label>
+              <input type="text" placeholder="Nombre de usuario" name="uname" required><br>
+          
+              <label for="psw"><b>Contraseña</b></label>
+              <input type="password" placeholder="Ingrese Contraseña" name="psw" required><br>
+          
+              <button type="submit">Ingresar</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Recordarme
+              </label>
+            </div>
+          
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" class="cancelbtn">Cancelar</button>
+              <span class="psw">¿Olvidaste tu <a href="#">contraseña?</a></span>
+            </div>
+          </form>         
+    </main>
+    <footer> <!--Inicio Footer-->
+        <section>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="shop.html">SHOP</a>
+                    </li>
+                    <li>
+                        <a href="register.html">REGISTRARSE</a>
+                    </li>
+                    <li>
+                        <a href="login.html">LOGIN</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACTO</a>
+                    </li>
+                </ul>
+                <picture>
+                    <img src="./img/branding/isotype.svg" alt="Isologotipode la marca Funkoshop">
+                </picture>
+            </nav>
+        </section>
+        <p>All rights reserved 2023 - Funkoshop &copy;</p>
+    </footer><!--Fin Footer-->
+</body>
+</html>
