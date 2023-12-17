@@ -5,13 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Funkoshop</title>
-
-
     <link rel="stylesheet" href="./CSS/index.css">
 </head>
 
 <body>
-    <!--Inicio Header Utilizamos el standard BLEM para nombrar las clases-->
+    <!--Inicio Header-->
     <header>
         <nav class="navbar container">
             <picture class="navbar__logo">
@@ -54,6 +52,7 @@
     </header>
     <!--Fin Header-->
 
+    <!--Start Hero Banner-->
     <section class="hero">
         <article class="hero__content container">
             <h3 class="hero__title">Nuevos Ingresos</h3>
@@ -61,9 +60,9 @@
             <a class="hero__link" href="pages/shop.html">SHOP</a>
         </article>
     </section>
+    <!--Fin Hero Banner-->
 
     <main class="main container">
-
         <section class="collection container">
             <article class="collection__content">
                 <h3 class="collection__title">Star Wars &
@@ -71,7 +70,6 @@
                 <p class="collection__text"> Disfruta de una saga que sigue agregando personajes a su colección.</p>
                 <a class="collection__link" href="./pages/shop/shop.html">VER COLECCION</a>
             </article>
-
             <picture class="collection__cover">
                 <img src="./img/star-wars/baby-yoda-1.webp" alt="Figura coleccionable Mandalorian">
             </picture>
@@ -82,7 +80,6 @@
                 <p class="collection__text">Atrapa todos los que puedas y disfruta de una colección llena de amigos.</p>
                 <a class="collection__link" href="./pages/shop/shop.html">VER COLECCION</a>
             </article>
-
             <picture class="collection__cover">
                 <img src="./img/pokemon/vulpix-1.webp" alt="Figura coleccionable INDIGO">
             </picture>
@@ -98,6 +95,7 @@
                 <img src="./img/harry-potter/snape-patronus-1.webp" alt="Figura coleccionable HARRY POTER">
             </picture>
         </section>
+        <!--Inicio Slider-->
         <section class="slider container glide">
             <h2 class="slider__title">Ultimos Lanzaminetos</h2>
             <div class="glide__track" data-glide-el="track">
@@ -166,23 +164,24 @@
                 <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><iconify-icon icon="mdi:chevron-right"></iconify-icon></button>
               </div>
         </section>
+        <!--Inicio Slider-->
     </main>
 
+    <!--Footer Start-->
     <footer class="footer">
-
         <nav class="navbar container">
             <ul class="navbar__item">
                 <li class="navbar__item">
                     <a class="navbar__link" href="./pages/shop.html">Shop</a>
                 </li>
                 <li class="navbar__item">
-                    <a class="navbar__link" href="./pages/admin/register.html">registrarse</a>
+                    <a class="navbar__link" href="./pages/admin/register.html">Registrarse</a>
                 </li>
                 <li class="navbar__item">
-                    <a class="navbar__link" href="./pages/admin/login.html">login</a>
+                    <a class="navbar__link" href="./pages/admin/login.html">Ingresar</a>
                 </li>
                 <li class="navbar__item">
-                    <a class="navbar__link" href="./pages/shop/contact.html">contacto</a>
+                    <a class="navbar__link" href="./pages/shop/contact.html">Contacto</a>
                 </li>
             </ul>
 
@@ -194,12 +193,10 @@
 
 
     </footer>
+    <!--Footer End-->
     <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
-
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-
     <script src="./JS/glide.js"></script>
 
 </body>
-
 </html>

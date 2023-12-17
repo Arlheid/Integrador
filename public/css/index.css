@@ -953,7 +953,7 @@ input[type="checkbox"] {
     font-size: 42px;
     padding: 30px 0px;
   }
-  .create__form {
+  .C__Form {
     margin: var(--spacing-20) 0;
     width: 827.63px;
     /* height: 669.3px; */
@@ -968,33 +968,37 @@ input[type="checkbox"] {
     font-weight: 300;
     line-height: normal;
     letter-spacing: 0.06rem;
-
+    
   }
 
   .form__botones{
     width: 50%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:flex-start;
+    gap: 34px;
        
 }
 
 .form__botones--item {
-    width: 175px;
-    height: 54px;
-    background-color: var(--primary-solid);
-    font-size: 14px;
-    color: var(--light-font-solid);
     display: flex;
     align-items: center;
     justify-content: center;
     border: none;
     cursor: pointer;
-    position:static;
+    position: static;
+    padding-block: 14px;
+    font-size: 14px;
+    font-weight: 600;
+    width: 175px;
+    height: 45px;
+    background-color: var(--primary-solid);
+    color: var(--light-font-solid);
+    border: none;
 
 }
 
-.create__form--Item {
+.C__Form--Item {
     display: flex;
     flex-direction: row;
     justify-content:flex-start;
@@ -1003,18 +1007,23 @@ input[type="checkbox"] {
     padding: 16px 0px;
   }
 
+.C__Form--Item button{
+    height: 25px;
+    width: 125px;
+}
+
  
-  .Texto__subrayadoRojo{
+  .Subindice_Red{
     font-size:var(--display);
-    border-bottom: 2px solid var(--primary-solid);
-    align-self: flex-start;
     font-size: 20px;
+    align-self: flex-start;
+    border-bottom: 2px solid var(--primary-solid);
     color: #b9b9b9;
     padding: 4px 0px 0px 0;
     
 }
 
-  .create__form--select_grupo {
+  .C__Form--select_grupo {
     display: flex;
     flex-direction: row;
     justify-content:space-between;
@@ -1022,7 +1031,7 @@ input[type="checkbox"] {
     margin: var(--spacing-20) 0;
   }
 
-  .create__form--select {
+  .C__Form--select {
     border-radius: 6px;
     border: 2px solid #30343f;
     width: 15.18963rem;

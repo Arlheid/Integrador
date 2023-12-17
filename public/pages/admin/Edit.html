@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <!--Inicio Header Utilizamos el standard BLEM para nombrar las clases-->
+    <!--Inicio Header -->
     <header>
         <nav class="navbar container">
             <picture class="navbar__logo">
@@ -56,12 +56,12 @@
 
         <section class="container">
 
-            <h1 class="Create__titulo">Crear Nuevo Item</h1>
-            <form action="" class="create__form form__typografia">
-                <section class="create__form--select_grupo">
+            <h1 class="Create__titulo">CREAR NUEVO ITEM</h1>
+            <form action="" class="C__Form form__typografia"> <!--Todos los create__form pasan a C__Form por que es mas corto-->
+                <section class="C__Form--select_grupo">
                     <div class="">
                         <label for="select_categoria">Categoria:</label>
-                        <select class="create__form--select" name="select_categoria" id="select_categoria">
+                        <select class="C__Form--select" name="select_categoria" id="select_categoria">
                             <option value="" selected>Seleccionar</option>
                             <option value="cat1">Cetegoria1</option>
                             <option value="cat2">Categoria2</option>
@@ -70,7 +70,7 @@
 
                     <div class="">
                         <label for="select_licencia">Licencia:</label>
-                        <select class="create__form--select" name="select_licencia" id="select_licencia">
+                        <select class="C__Form--select" name="select_licencia" id="select_licencia">
                             <option value="" selected>Seleccionar</option>
                             <option value="lic1">Licencia1</option>
                             <option value="lic2">Licencia2</option>
@@ -78,77 +78,70 @@
                     </div>
                 </section>
 
-                <section class="create__form--Item">
+                <section class="C__Form--Item">
                     <label>Nombre del producto:</label>
-                    <p class="Texto__subrayadoRojo">Kakashi hate shippuden Saga</p>
+                    <p class="Subindice_Red">Kakashi Hatake Shippuden Saga</p>
                 </section>
 
 
                 <textarea class="descripcion_pruducto" id="descripcion" name="descripcion"></textarea>
                 <div class="sku_precio_stock">
 
-                    <section class="create__form--Item">
+                    <section class="C__Form--Item">
                         <label>sku:</label>
-                        <p class="Texto__subrayadoRojo">SSK111AB001</p>
-
+                        <p class="Subindice_Red">SSK111AB001</p>
                     </section>
 
-                    <section class="create__form--Item">
+                    <section class="C__Form--Item">
                         <label>Precio:</label>
-                        <p class="Texto__subrayadoRojo">$ 0.000,00</p>
-
+                        <p class="Subindice_Red">$ 0.000,00</p>
                     </section>
 
 
-                    <section class="create__form--Item">
+                    <section class="C__Form--Item">
                         <label>Stock:</label>
-                        <p class="Texto__subrayadoRojo">0</p>
-
+                        <p class="Subindice_Red">0</p>
                     </section>
 
                 </div>
 
                 <div class="sku_precio_stock">
 
-                    <section class="create__form--Item">
+                    <section class="C__Form--Item">
                         <label>Descuento:</label>
-                        <p class="Texto__subrayadoRojo">0%</p>
+                        <p class="Subindice_Red">0%</p>
 
                     </section>
 
-                    <section class="create__form--Item">
+                    <section class="C__Form--Item">
                         <label>Cuotas:</label>
-                        <select class="create__form--select" name="select_cuotas" id="select_cuotas">
+                        <select class="C__Form--select" name="select_cuotas" id="select_cuotas">
                             <option value="" selected>Seleccionar</option>
                             <option value="cat1">3 cuotas sin interes</option>
+                            <option value="cat2">6 cuotas sin interes</option>
+                            <option value="cat3">9 cuotas sin interes</option>
+                            <option value="cat4">12 cuotas sin interes</option>
 
                         </select>
                     </section>
-
-
                 </div>
 
-                <section class="create__form--Item">
-                    <label>Imagenes:</label>
+                <section class="C__Form--Item">
+                    <label>Imágenes:</label>
                     <button>Elegir Archivos</button>
                     <p>No se ha seleccionado ningun archivo</p>
-
-
                 </section>
 
-                
                 <section>
                     <img class="edit__imagen" src="../../img/pokemon/pidgeotto-1.webp" alt="pokemon" />
                     <img class="edit__imagen" src="../../img/pokemon/pidgeotto-box.webp" alt="pokemon" />
                 </section> 
- 
-
 
             </form>
-            <div class="create__form--Item">
+            <div class="C__Form--Item">
 
                 <div class="form__botones">
-                    <button class="form__botones--item">Agregar Productos</button>
+                    <button class="form__botones--item">Agregar Producto</button>
                     <button class="form__botones--item">Limpiar</button>
                 </div>
             </div>
@@ -164,13 +157,13 @@
                     <a class="navbar__link" href="../shop/shop.html">Shop</a>
                 </li>
                 <li class="navbar__item">
-                    <a class="navbar__link" href="../registrarse.html">registrarse</a>
+                    <a class="navbar__link" href="./register.html">Registrarse</a>
                 </li>
                 <li class="navbar__item">
-                    <a class="navbar__link" href="./login.html">login</a>
+                    <a class="navbar__link" href="./login.html">Ingresar</a>
                 </li>
                 <li class="navbar__item">
-                    <a class="navbar__link" href="./contact.html">contacto</a>
+                    <a class="navbar__link" href="../shop/contact.html">Contacto</a>
                 </li>
             </ul>
 
