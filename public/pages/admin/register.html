@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER | Funkoshop</title>
+    <link rel="stylesheet" href="../../CSS/index.css">
+</head>
+
+<body>
+    <!--Inicio Header Utilizamos el standard BLEM para nombrar las clases-->
+    <header>
+        <nav class="navbar container">
+            <picture class="navbar__logo">
+                <a href="">
+                    <img src="../../img/branding/logo_light_horizontal.svg" alt="Isologotipo de la Marca Funkashop">
+
+                </a>
+            </picture>
+
+            <ul class="navbar__menu">
+                <li class="navbar__item whit-submenu">
+                    <a class="navbar__link whit-icon" href="./shop.html">SHOP <iconify-icon
+                            icon="fluent:chevron-down-12-filled"></iconify-icon></a>
+                    <ul class="submenu">
+                        <li class="submenu__item">
+                            <a ref="" class="submenu__link">Funkos</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a ref="" class="submenu__link">Remeras</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a ref="" class="submenu__link">Llaveros</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="./shop.html">CONTACTO</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="./login.html">LOGIN</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__cart" href="./carrito.html">
+                        <img src="../../img/icons/cart-icon.svg" alt="icono del carrito">
+
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--Fin Header-->
+
+    <main>
+
+        <section class="container">
+            <h1 class="Create__titulo">CREA TU CUENTA</h1>
+            <!-- <h1>CREA TU CUENTA</h1> -->
+            <p class="Create__subtitulo">Completa el formulario para ser parte de los Funkos</p>
+            <form action="" class="create__form form__cta__typografia">
+
+                <div class="form-list__items">
+                    <li class="create__form--Item">
+                        <label class="form-list__label" for="nombre">Nombre</label>
+                        <input class="form-list__input" type="text" name="nombre" id="nombre">
+                    </li>
+
+                    <li class="create__form--Item">
+                        <label class="form-list__label"  for="nombre">Apellido</label>
+                        <input class="form-list__input"  type="text" name="apellido" id="apellido">
+                    </li>
+
+                    <li class="form-list__item">
+                        <label class="form-list__label" for="email">Email:</label>
+                        <input class="form-list__input" type="email" name="email" id="email" placeholder="adminmail@mymail.com"/>
+                      </li>
+
+                    <li class="form-list__item">
+                        <label class="form-list__label" for="password">Contraseña:</label>
+                        <input class="form-list__input" type="password" name="password" id="password" placeholder="4qu1l3sK4160y0"/>
+                      </li>
+
+                      <li class="form-list__item">
+                        <label class="form-list__label" for="re-password">Repetir Contraseña:</label>
+                        <input class="form-list__input" type="re-password" name="re-password" id="re-password" placeholder="4qu1l3sK4160y0"/>
+                      </li>
+
+                      <li class="form-list__item3">
+                        <button class="form-list__buttonSubmit" type="submit" value="login">Ingresar</button>
+                        <div class="form-list__subitem">
+                          <input class="form-list__inputCheckbox" type="checkbox" name="remember" id="remember" />
+                          <label class="form-list__labelCheckbox" for="remember">Recordarme</label>
+                        </div>
+                      </li>
+
+                </div>
+
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+
+        <nav class="navbar container">
+            <ul class="navbar__item">
+                <li class="navbar__item">
+                    <a class="navbar__link" href="../shop/shop.html">Shop</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="./register.html">registrarse</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="./login.html">login</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="../shop/contact.html">contacto</a>
+                </li>
+            </ul>
+
+            <picture>
+                <img src="../../img/branding/isotype.svg" alt="isotipo de la marca Funkoshop">
+            </picture>
+        </nav>
+        <p class="footer__copy">All rights reserved 2023 - Funkoshop &copy;</p>
+
+
+    </footer>
+</body>
+
+</html>
