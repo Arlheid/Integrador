@@ -1070,7 +1070,7 @@ input[type="checkbox"] {
   /*fin edit*/
 
 
-/*----- Login -----*/
+/* Login */
 
 .main-login {
     display: flex;
@@ -1097,7 +1097,7 @@ input[type="checkbox"] {
     display: flex;
     gap: var(--spacing-20);
     justify-content: space-between;
-color: var(--dark-solid);
+    color: var(--dark-solid);
   }
   
   .form-list__label {
@@ -1124,8 +1124,7 @@ color: var(--dark-solid);
     padding: 10px;
     gap: 10px;
 
-    
-    
+       
   }
   
   .form-list__buttonSubmit {
@@ -1160,9 +1159,7 @@ color: var(--dark-solid);
     color: var(--dark-solid);
     padding: 0px 10px;
     
-
   }
-
   /*fin login*/
 
   /*Create Cta*/
