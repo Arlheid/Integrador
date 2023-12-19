@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN  | Funkoshop</title>
+    <link rel="stylesheet" href="../../CSS/index.css">
+</head>
+<body>
+   <!--Inicio Header-->
+   <%- include('partials/header') %>
+    <!--Fin Header-->
+
+<main class="main-login">
+    <h1 class="login__title">INGRESAR A MI CUENTA</h1>
+    <form class="login__form" action="submit">
+      <ul class="form-list__items">
+        <li class="form-list__item">
+          <label class="form-list__label" for="email">Email:</label>
+          <input class="form-list__input" type="email" name="email" id="email" placeholder="adminmail@mymail.com"/>
+        </li>
+        <li class="form-list__item">
+          <label class="form-list__label" for="password">Contraseña:</label>
+          <input class="form-list__input" type="password" name="password" id="password" placeholder="4qu1l3sK4160y0"/>
+        </li>
+        <li class="form-list__item3">
+          <button class="form-list__buttonSubmit" type="submit" value="login">Ingresar</button>
+          <div class="form-list__subitem">
+            <input class="form-list__inputCheckbox" type="checkbox" name="remember" id="remember" />
+            <label class="form-list__labelCheckbox" for="remember">Recordarme</label>
+          </div>
+        </li>
+      </ul>
+    </form>
+    <a class="login__link" href="#"><h6>Olvidé mi contraseña</h6></a>
+  </main>
+  <%- include('partials/footer') %>
+</body>
+</html>

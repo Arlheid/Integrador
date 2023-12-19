@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ADMIN | Funkoshop</title>
+    <link rel="stylesheet" href="../../css/index.css">
+</head>
+<body>
+   <!--Inicio Header-->
+   <%- include('partials/header') %>
+  <!--Fin Header-->
+
+<main class="container">
+    <section class="admin__buscar">
+      <img src="../../img/icons/search_icon.svg" alt="">
+      <form action=""><input type="text" id="buscar" name="buscar" placeholder="Código, nombre o categoría"></form>
+    </section>
+          
+  
+      <section class="admin__tab__header">
+        <h3 class="admin__tab__tit">LISTADO DE PRODUCTOS</h3>
+        <div class="admin__tab__add"><h3 class="">AGREGAR</h3 >
+          <iconify-icon icon="ph:plus-fill" class="admin__tab__icon--plus"></iconify-icon>
+        </div>
+
+      </section>
+      
+      <table class="admin__tab"> 
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Código</th>
+          <th>Nombre del Producto</th>
+          <th>Categoria</th>
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>STW001001</td>
+          <td>Baby Yoda Blueball</td>
+          <td>STARS WARS</td>
+          <td><iconify-icon icon="mdi:pencil" class="admin__tab__td--icon_pencil"></iconify-icon> </iconify-icon></td>
+          <td><iconify-icon icon="iconamoon:trash-fill" class="admin__tab__td--icon_trash"></iconify-icon></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>STW001002</td>
+          <td>Boba Fett Fighter</td>
+          <td>STARS WARS</td>
+          <td><iconify-icon icon="mdi:pencil" class="admin__tab__td--icon_pencil"></iconify-icon> </iconify-icon></td>
+          <td><iconify-icon icon="iconamoon:trash-fill" class="admin__tab__td--icon_trash"></iconify-icon></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>STW001003</td>
+          <td>Luke Skywalker & Grogu</td>
+          <td>STARS WARS</td>
+          <td><iconify-icon icon="mdi:pencil" class="admin__tab__td--icon_pencil"></iconify-icon> </iconify-icon></td>
+          <td><iconify-icon icon="iconamoon:trash-fill" class="admin__tab__td--icon_trash"></iconify-icon></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>STW001004</td>
+          <td>Stormtrooper Lightsaber</td>
+          <td>STARS WARS</td>
+          <td><iconify-icon icon="mdi:pencil" class="admin__tab__td--icon_pencil"></iconify-icon> </iconify-icon></td>
+          <td><iconify-icon icon="iconamoon:trash-fill" class="admin__tab__td--icon_trash"></iconify-icon></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>PKM001001</td>
+          <td>Charmander Smiler</td>
+          <td>POKEMON</td>
+          <td><iconify-icon icon="mdi:pencil" class="admin__tab__td--icon_pencil"></iconify-icon> </iconify-icon></td>
+          <td><iconify-icon icon="iconamoon:trash-fill" class="admin__tab__td--icon_trash"></iconify-icon></td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>PKM001002</td>
+          <td>Dragonite Hi!</td>
+          <td>POKEMON</td>
+          <td><iconify-icon icon="mdi:pencil" class="admin__tab__td--icon_pencil"></iconify-icon> </iconify-icon></td>
+          <td><iconify-icon icon="iconamoon:trash-fill" class="admin__tab__td--icon_trash"></iconify-icon></td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>PKM001003</td>
+          <td>Pidgeotto Flying</td>
+          <td>POKEMON</td>
+          <td><iconify-icon icon="mdi:pencil" class="admin__tab__td--icon_pencil"></iconify-icon> </iconify-icon></td>
+          <td><iconify-icon icon="iconamoon:trash-fill" class="admin__tab__td--icon_trash"></iconify-icon></td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>PKM001004</td>
+          <td>Pikachu Smiley</td>
+          <td>POKEMON</td>
+          <td><iconify-icon icon="mdi:pencil" class="admin__tab__td--icon_pencil"></iconify-icon> </iconify-icon></td>
+          <td><iconify-icon icon="iconamoon:trash-fill" class="admin__tab__td--icon_trash"></iconify-icon></td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>PKM001005</td>
+          <td>Vulpix Fancy</td>
+          <td>POKEMON</td>
+          <td><iconify-icon icon="mdi:pencil" class="admin__tab__td--icon_pencil"></iconify-icon> </iconify-icon></td>
+          <td><iconify-icon icon="iconamoon:trash-fill" class="admin__tab__td--icon_trash"></iconify-icon></td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>HPT001001</td>
+          <td>Harry Potter & Hegwid</td>
+          <td>HARRY POTTER</td>
+          <td><iconify-icon icon="mdi:pencil" class="admin__tab__td--icon_pencil"></iconify-icon> </iconify-icon></td>
+          <td><iconify-icon icon="iconamoon:trash-fill" class="admin__tab__td--icon_trash"></iconify-icon></td>
+        </tr>
+       
+      </tbody>
+    </table>
+  </main>
+  <%- include('partials/footer') %>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+</html>
