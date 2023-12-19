@@ -13,10 +13,15 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 const mainRoutes = require("./src/routes/mainRoutes");
+//const itemRoutes = require("./src/routes/itemRoutes");
+const shopRoutes = require("./src/routes/shopRoutes");
 
 app.use(mainRoutes);
+//app.use(itemRoutes);
+app.use(shopRoutes);
 
-app.use("/admin/productos", require("./src/routes/admin/productosRoutes"));
+//app.use("item", require("./src/routes/itemRoutes"));
+app.use("shop", require("./src/routes/shopRoutes"));
 
 app.use((req, res, next) => {
   res.status(404).send("Ruta no encontrada");

@@ -1,12 +1,12 @@
 const express = require("express");
 const router = express.Router();
 
-const controller = require("../../controllers/admin/productosController");
+const controller = require("../controllers/itemController");
 
 // CRUD
 // Create, Read, Update, Delete
 
-router.get("/", controller.index);
+router.get("/", controller.item);
 router.get("/:id", controller.show);
 router.post("/", controller.store);
 router.put("/:id", controller.update);

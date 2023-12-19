@@ -1,15 +1,18 @@
-const index = (req, res) => {
+const { fileLoader } = require("ejs");
+const path = require("path");
+
+const item = (req, res) => {
   const items = [
     { nombre: "Item 1" },
     { nombre: "Item 2" },
     { nombre: "Item 3" },
   ];
-  res.render("admin/index", { nombre: "Producto 1", items });
+  res.render("../views/shop/item", { nombre: "Producto 1", items });
 };
 
 const show = (req, res) => {
   console.log(req.params);
-  res.send("Admin Detalle de Producto");
+  res.send("Admin Detalle de Producto11");
 };
 
 const store = (req, res) => {
@@ -28,7 +31,7 @@ const destroy = (req, res) => {
 };
 
 module.exports = {
-  index,
+  item,
   show,
   store,
   update,
