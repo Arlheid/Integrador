@@ -31,3 +31,12 @@ module.exports = {
   update,
   destroy,
 };
+
+
+
+// Shop Routes:
+// - GET -> /shop
+// - GET -> /shop/item/:id
+// - POST -> /shop/item/:id/add
+// - GET -> /shop/cart
+// - POST -> /shop/cart
